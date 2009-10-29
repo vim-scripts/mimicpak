@@ -1,4 +1,4 @@
-"Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«
+"«««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
 "  ColorScheme:  dejavu.vim
 "  Last Change:  2009-10-17  [17:02:20]
 "      Version:  125
@@ -9,7 +9,7 @@
 "                :h dejavu-variants
 "                :h mimicpak
 "                :h mimicpak-options
-"Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«
+"«««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««««
 " Setup {{{1
 "~~~~~~~
 hi clear
@@ -519,7 +519,7 @@ else
 
   " darker style for cterm only {{{4
   "
-  " Als Bonus setzen wir die dunklere Farben nur fÃ¼r cterm, und nur damit es
+  " Als Bonus setzen wir die dunklere Farben nur für cterm, und nur damit es
   " Ein bischen unterschied gibt zwischen dark=0 und dark=1.
   "
   if 0 != s:mimic_dejavu_dark && !s:mimic_dejavu_alt

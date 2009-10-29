@@ -413,7 +413,7 @@ IntelliJIDEA is a very powerful and smart IDE for Java.  From its home page: >
 	test and learn your code. Thanks to its deep understanding of
 	languages and technologies, IntelliJ IDEA provides a second pair of
 	hands for you when you need them. Playing the game by your rules
-	without ever getting in your way Â— that's our idea of a productive and
+	without ever getting in your way — that's our idea of a productive and
 	pleasant development."
 <
 You can get it from: http://www.jetbrains.com/idea/index.html
