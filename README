@@ -1,0 +1,64 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2831
+
+The MimicPak is a set of 17 colorschemes which were converted (ripped-off)
+from other editors and IDEs and that use and share some common
+tweaking options, like the font style among others.  Some original,
+personal, invented and cloned colorschemes are included too.
+
+The IDEs/Editors may have had more colorschemes, but only some
+(which I think that were great) are included.  Most of the colorschemes
+are only for gVim, this is so, because of time reasons and available
+number of colors.  However, you can use the CSApprox plugin
+( vimscript#2390 ) to use them on 88/256 color terms.  Although some of them
+have the cterm colors for 16 color terminals.
+
+For a fast way to try out these schemes, the included mimicpak.vim
+plugin script creates a submenu "MimicPak" under the "Themes" menu on the main
+menubar.
+
+After correctly installing this pack, you can see the help with:
+   :h mimicpak
+       >> to get general help
+   :h mimic-overview
+       >> quick overview of colorschemes by background colors.
+   :h mimic-options
+       >> to see the shared options.
+   :h name_of_scheme.vim   
+       >> to see specific options (if any) of a  particular colorscheme.
+
+================
+SHARED OPTIONS
+================
+All the included colorschemes use and share the following common option
+variables (these can either be set as: buffer, window, tabpage or global) :
+
+   * mimic_font_style:  controls the style of the fonts.
+
+        let  mimic_font_style = 0    " schemes will use plain fonts
+        let  mimic_font_style = 1    " schemes will use bold fonts
+        let  mimic_font_style = 2    " schemes will use italic fonts
+        let  mimic_font_style = 3    " schemes will use bold and italic fonts
+
+   * mimic_colorize_gui:  if set, GUI elements (menu, toolbar,
+        scrollbar) will be colorized (works only for some GUIs).
+
+That said, you only need to set these options once and you'll get the
+same look when changing to another of these schemes.
+
+For further help about these, try:
+   :h mimic_font_style
+   :h mimic_colorize_gui
+
+==============
+SCREENSHOTS
+==============
+Here are some: http://img97.imageshack.us/g/scameemacsplain.png/
+
+A slideshow: http://img513.imageshack.us/slideshow/player.php?id=img513/5013/1256781939pe8.smil
+
+Most of the included colorschemes are intended to be "easy on the eyes"
+(well, almost) and I hope that you might find at least 2 or 3
+colorschemes from this pack that you could use for every day coding :)
+
+If you like it (or if you don't) PLEASE RATE this thing!
+
